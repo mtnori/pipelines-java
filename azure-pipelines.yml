@@ -8,7 +8,7 @@ trigger:
 - master
 
 pool:
-  name: 'default'
+  name: 'TestAgent'
 
 steps:
 - task: Maven@3
