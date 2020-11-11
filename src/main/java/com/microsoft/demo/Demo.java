@@ -6,7 +6,7 @@ public class Demo {
         System.out.println(t.test(10));
 
         if(flag){
-            System.out.println("I am covered");
+            System.out.println("I am covered...");
             return;
         }
 
