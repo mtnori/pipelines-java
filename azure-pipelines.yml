@@ -7,8 +7,7 @@ name: $(SourceBranchName)-$(Date:yyyyMMdd)$(Rev:.rrr)
 trigger:
 - master
 
-pool:
-  vmImage: 'ubuntu-latest'
+pool: 'Build Agent'
 
 steps:
 - task: Bash@3
